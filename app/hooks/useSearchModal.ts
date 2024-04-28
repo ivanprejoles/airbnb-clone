@@ -5,7 +5,7 @@ interface SearchModalStore {
     onOpen: () => void,
     onClose: () => void
 }
-
+1
 const useSearchModal = create<SearchModalStore>((set) => ({
     isOpen: false,
     onClose: () => set({isOpen: false}),

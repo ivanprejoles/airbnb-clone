@@ -26,7 +26,7 @@ enum STEPS {
 }
 
 const RentModal = () => {
-
+    
   const RentModal = useRentModal()
   const Router = useRouter()
 
